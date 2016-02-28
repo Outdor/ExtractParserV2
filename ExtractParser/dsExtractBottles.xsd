@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsExtractBottles" targetNamespace="http://tempuri.org/dsExtractBottles.xsd" xmlns:mstns="http://tempuri.org/dsExtractBottles.xsd" xmlns="http://tempuri.org/dsExtractBottles.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsExtractBottles" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsExtractBottles" msprop:Generator_UserDSName="dsExtractBottles">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtExtractBottles" msprop:Generator_TableClassName="dtExtractBottlesDataTable" msprop:Generator_TableVarName="tabledtExtractBottles" msprop:Generator_RowChangedName="dtExtractBottlesRowChanged" msprop:Generator_TablePropName="dtExtractBottles" msprop:Generator_RowDeletingName="dtExtractBottlesRowDeleting" msprop:Generator_RowChangingName="dtExtractBottlesRowChanging" msprop:Generator_RowEvHandlerName="dtExtractBottlesRowChangeEventHandler" msprop:Generator_RowDeletedName="dtExtractBottlesRowDeleted" msprop:Generator_RowClassName="dtExtractBottlesRow" msprop:Generator_UserTableName="dtExtractBottles" msprop:Generator_RowEvArgName="dtExtractBottlesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dcExtractName" msprop:Generator_ColumnVarNameInTable="columndcExtractName" msprop:Generator_ColumnPropNameInRow="dcExtractName" msprop:Generator_ColumnPropNameInTable="dcExtractNameColumn" msprop:Generator_UserColumnName="dcExtractName" type="xs:string" minOccurs="0" />
+              <xs:element name="dcBottleSize" msprop:Generator_ColumnVarNameInTable="columndcBottleSize" msprop:Generator_ColumnPropNameInRow="dcBottleSize" msprop:Generator_ColumnPropNameInTable="dcBottleSizeColumn" msprop:Generator_UserColumnName="dcBottleSize" type="xs:unsignedShort" minOccurs="0" />
+              <xs:element name="dcBottleCount" msprop:Generator_ColumnVarNameInTable="columndcBottleCount" msprop:Generator_ColumnPropNameInRow="dcBottleCount" msprop:Generator_ColumnPropNameInTable="dcBottleCountColumn" msprop:Generator_UserColumnName="dcBottleCount" type="xs:unsignedShort" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
