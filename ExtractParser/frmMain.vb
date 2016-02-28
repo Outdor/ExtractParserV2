@@ -1,4 +1,11 @@
 ﻿Public Class frmMain
+
+    'Copyright (c) 2016, All Rights Reserved.
+    'Author: Keith E. Coggin
+    'Company: Sequoia Computer Services
+    'Project Date: 2016-02-28 11:37
+    'Summary: Report parsing tool created for use by DIY E-Liquid Supplies.
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         'Variable Declarations.
         Dim StringReader As String 'Variable to hold individual lines from the file.
